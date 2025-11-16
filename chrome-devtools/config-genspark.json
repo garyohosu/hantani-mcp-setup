@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ],
+      "env": {
+        "CHROME_DEBUG_PORT": "9222"
+      },
+      "description": "Chrome DevTools Protocol integration for browser debugging",
+      "metadata": {
+        "author": "Google Chrome DevTools Team",
+        "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "version": "latest"
+      }
+    }
+  }
+}
